@@ -1,6 +1,6 @@
 {
     "name": "pxt-foil-reaction-proj",
-    "description": "",
+    "description": "e",
     "dependencies": {
         "core": "*",
         "radio": "*"
