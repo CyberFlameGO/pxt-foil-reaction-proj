@@ -1,6 +1,5 @@
 let game_started = false
-basic.forever(function on_forever() {
-    
+basic.forever(function () {
     game_started = false
     basic.pause(randint(1000, 5000))
     game_started = true
@@ -13,7 +12,6 @@ basic.forever(function on_forever() {
             basic.showString("B")
             game_started = false
         }
-        
     }
     basic.pause(3000)
     basic.clearScreen()
